@@ -29,7 +29,7 @@ const contenedor = document.getElementById("productos-container");
 
 productos.forEach(producto => {
   const col = document.createElement("div");
-  col.className = "col s6 m4";
+  col.className = "col s12 m4";
   col.setAttribute("data-aos", "fade-up");
   
   col.innerHTML = `
@@ -225,3 +225,4 @@ document.addEventListener('DOMContentLoaded', function () {
   M.Modal.init(document.querySelectorAll('.modal'));
   AOS.init({ duration: 1000, once: true });
 });
+
